@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI PRO TRADER</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>AI PRO TRADER</h1>
+
+    <p class="subtitle">AI Forex Screenshot Analyzer</p>
+
+    <section class="panel">
+
+      <h2>Analisis Chart</h2>
+
+      <p>Upload screenshot chart Forex kamu.</p>
+
+      <input type="file" id="chart" accept="image/png,image/jpeg,image/webp">
+
+      <img id="preview" alt="Preview chart">
+
+      <button id="analyze">ANALISIS SEKARANG</button>
+
+      <p id="status"></p>
+
+    </section>
+
+    <section class="panel" id="result" hidden>
+
+      <h2>HASIL ANALISIS</h2>
+
+      <h1 id="signal">WAIT</h1>
+
+      <div id="details"></div>
+
+    </section>
+
+    <p class="warning">
+
+      Analisis berdasarkan screenshot, bukan data pasar live.
+
+      Selalu uji di akun demo.
+
+    </p>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
